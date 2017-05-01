@@ -4,7 +4,7 @@ Ideliance - Outil de gestion de connaissances
 
 Abstract
 --------
-Ideliance est un logiciel de gestion de connaissances. 
+Ideliance est un logiciel de gestion de connaissances.
 Il permet la saisie, la modification et l'exploitation de relations Sujet-Verbe-Complément (ex: [Martin][habite à][Paris]).
 Cette manière simple d'exprimer une connaissance, bien que limitée, permet d'utiliser des puissants outils d'exploitation
 de l'information. Un exemple est le Quoi-Entre, permettant de retrouver les liaisons existantes entre deux entités données.
@@ -20,7 +20,7 @@ La partie IHM est largement inspirée de l'interface d'administration web d'Orie
 Le projet contient la distribution OrientDB (qui embarque un serveur web) et l'application web déployée : Ideliance.
 Une base de test est présente, les identifiants de connexion sont ceux par défaut (cf. HOWTO.txt)
 
-Pour toute information technique complémentaire, veuillez consulter la documentation d'OrientDB : 
+Pour toute information technique complémentaire, veuillez consulter la documentation d'OrientDB :
 Ancienne URL : http://code.google.com/p/orient/wiki/Main
 Nouvelle URL : https://github.com/nuvolabase/orientdb/wiki
 
@@ -35,7 +35,7 @@ Il sera peut-être nécessaire d'attribuer les droits d'exécution aux scripts.
 
 2. Une fois le serveur actif, accédez à l'URL suivante dans votre navigateur : localhost:2480
 
-Vous devez maintenant vous trouver sur l'interface de connexion d'Ideliance. 
+Vous devez maintenant vous trouver sur l'interface de connexion d'Ideliance.
 
 A tout moment, vous pouvez arrêter le serveur en exécutant le script shutdown.bat (sous Windows) ou shutdown.sh (sous Linux).
 
@@ -47,11 +47,11 @@ Configuration
   La liste des ports peut être modifiée dans le fichier de configuration Ideliance/config/orientdb-server-config.xml, à la ligne suivante :
 	<listener ip-address="0.0.0.0" port-range="2480-2490" protocol="http">
 	Si l'on souhaite que le serveur ne se place que dans un seul port, placer uniquement ce numéro de port comme valeur de l'attribut port-range.
-	
+
 * Il est vivement conseillé de modifier dans le fichier de configuration Ideliance/config/orientdb-server-config.xml, les identifiants de l'administrateur du serveur.
 Ils se trouvent à la ligne : <user name="root" resources="*" password="095F17F6488FF5416ED24E"/>
-	
-	
+
+
 Erreur au lancement
 -------------------
 
@@ -62,6 +62,6 @@ Toutefois si cela n'est pas possible vous pouvez en solution de secours, dans le
 Liens
 -----
 
-Website : http://ideliance.org
+Website : en construction
 
 JIRA : https://ideliance.atlassian.net/
